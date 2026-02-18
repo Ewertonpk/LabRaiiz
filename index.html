@@ -13,15 +13,29 @@
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
 
 </head>
 
 <body>
-    <header>
-        <a href="/">
+    <header class="cabecalho">
+
+        <div class="header-conteudo">
+            <div class="header-esquerda">
+
+                <button class="menu-hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+        <a class="logo" href="/">
             <img src="./assets/images/images/logo.svg" alt="LabRaiiz" width="150">
         </a>
-        <nav>
+
+        </div>
+
+        <nav class="menu-principal">
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="#about">Sobre Nós</a></li>
@@ -30,10 +44,10 @@
             </ul>
         </nav>
 
-        <button>
+        <button class="botao-carrinho" data-micromodal-trigger="modal-1">
             <img src="./assets/images/images/icone_carrinho.svg" alt="Carrinho de Compras" width="24">
         </button>
-
+        </div>
     </header>
 
     <main>
